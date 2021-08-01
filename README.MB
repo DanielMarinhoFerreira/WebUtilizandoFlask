@@ -1,0 +1,8 @@
+Projeto em Python utilizando micro Framework "Flask"
+
+...
+sh
+from Flask import Flask
+
+
+....
