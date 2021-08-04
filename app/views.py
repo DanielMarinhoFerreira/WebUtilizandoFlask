@@ -6,6 +6,8 @@ views = Blueprint('views', __name__)
 
 
 
-@views.route('')
+
+@views.route('/')
+@views.route('Index')
 def index ():
-    return render_template ('')
+    return render_template ('index.html')
